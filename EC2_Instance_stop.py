@@ -26,3 +26,5 @@ def stop_all_running_instances():
 # Lambda handler function - this is the entry point when the Lambda function is triggered
 def lambda_handler(event, context):
     stop_all_running_instances()  # Call the function to stop all running instances
+
+stop_all_running_instances()
